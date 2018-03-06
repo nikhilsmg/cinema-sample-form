@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CARNIVAL CINEMAS ONLINE SEAT BOOKING</title>
+<link href="insert.css" rel="stylesheet">
+</head>
+<body>
+<div class="maindiv">
+<!--HTML Form -->
+<div class="form_div">
+<div class="title">
+<h3>CARNIVAL CINEMAS ONLINE SEAT BOOKING</h3>
+</div>
+<form action="insert.php" method="post">
+<!-- Method can be set as POST for hiding values in URL-->
+<h1>Customer Information</h1>
+<label>Name:</label>
+<input class="input" name="name" type="text" value="">
+<label>Email:</label>
+<input class="input" name="email" type="text" value="">
+<label>Contact:</label>
+<input class="input" name="phone" type="text" value="">
+<br>
+<label>SEATS:</label>
+	<select class="input" id="input" name="seats">
+				<optgroup label="GOLD CLASS">
+					<option value="GOLD CLASS 1">GOLD CLASS 1</option>
+					<option value="GOLD CLASS 2">GOLD CLASS 2</option>
+					<option value="GOLD CLASS 3">GOLD CLASS 3</option>
+					<option value="GOLD CLASS 4">GOLD CLASS 4</option>
+					<option value="GOLD CLASS 5">GOLD CLASS 5</option>
+				</optgroup>
+				<optgroup label="FIRST CLASS">
+					<option value="FIRST CLASS 1">FIRST CLASS 1</option>
+					<option value="FIRST CLASS 2">FIRST CLASS 2</option>
+					<option value="FIRST CLASS 3">FIRST CLASS 3</option>
+					<option value="FIRST CLASS 4">FIRST CLASS 4</option>
+					<option value="FIRST CLASS 5">FIRST CLASS 5</option>
+				</optgroup>
+				<optgroup label="SECOND CLASS">
+					<option value="SECOND CLASS 1">SECOND CLASS 1</option>
+					<option value="SECOND CLASS 2">SECOND CLASS 2</option>
+					<option value="SECOND CLASS 3">SECOND CLASS 3</option>
+					<option value="SECOND CLASS 4">SECOND CLASS 4</option>
+					<option value="SECOND CLASS 5">SECOND CLASS 5</option>
+				</optgroup>
+			</select>   
+<label>Additional Information:</label>
+<textarea cols="25" name="info" rows="5"></textarea>
+			<input class="submit" name="submit" type="submit" value="Reserve">
+</form>
+<p>Created By NIKHIL & AKHIL  </p>
+</div>
+</div>
+</body>
+</html>
